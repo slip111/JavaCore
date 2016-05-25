@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>250</x>
-      <y>20</y>
+      <x>350</x>
+      <y>140</y>
       <w>210</w>
       <h>160</h>
     </coordinates>
@@ -26,8 +26,8 @@ FileOwner
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>250</x>
-      <y>250</y>
+      <x>350</x>
+      <y>370</y>
       <w>210</w>
       <h>100</h>
     </coordinates>
@@ -44,8 +44,8 @@ WordCount
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>250</y>
+      <x>120</x>
+      <y>370</y>
       <w>210</w>
       <h>100</h>
     </coordinates>
@@ -62,8 +62,8 @@ ColourDepth
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>250</y>
+      <x>580</x>
+      <y>370</y>
       <w>210</w>
       <h>80</h>
     </coordinates>
@@ -79,8 +79,8 @@ BitRate
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>410</x>
-      <y>170</y>
+      <x>510</x>
+      <y>290</y>
       <w>190</w>
       <h>100</h>
     </coordinates>
@@ -90,8 +90,8 @@ BitRate
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>110</x>
-      <y>170</y>
+      <x>210</x>
+      <y>290</y>
       <w>200</w>
       <h>100</h>
     </coordinates>
@@ -101,8 +101,8 @@ BitRate
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>340</x>
-      <y>170</y>
+      <x>440</x>
+      <y>290</y>
       <w>30</w>
       <h>100</h>
     </coordinates>
@@ -112,8 +112,8 @@ BitRate
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>250</x>
-      <y>450</y>
+      <x>350</x>
+      <y>570</y>
       <w>210</w>
       <h>140</h>
     </coordinates>
@@ -133,8 +133,8 @@ FilesCount
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>320</y>
+      <x>550</x>
+      <y>440</y>
       <w>150</w>
       <h>220</h>
     </coordinates>
@@ -147,8 +147,8 @@ m2= *</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>110</x>
-      <y>340</y>
+      <x>210</x>
+      <y>460</y>
       <w>160</w>
       <h>200</h>
     </coordinates>
@@ -171,8 +171,8 @@ m1=
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>340</x>
-      <y>340</y>
+      <x>440</x>
+      <y>460</y>
       <w>30</w>
       <h>130</h>
     </coordinates>
