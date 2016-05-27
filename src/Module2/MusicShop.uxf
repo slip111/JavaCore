@@ -4,16 +4,16 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>440</x>
-      <y>390</y>
+      <x>400</x>
+      <y>600</y>
       <w>210</w>
       <h>90</h>
     </coordinates>
-    <panel_attributes>Flower
+    <panel_attributes>Instruments
 --
+Number
 Name
-Colour
-Smell
+price
 --
 
 </panel_attributes>
@@ -22,15 +22,14 @@ Smell
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>340</x>
-      <y>520</y>
+      <x>170</x>
+      <y>720</y>
       <w>210</w>
-      <h>80</h>
+      <h>60</h>
     </coordinates>
-    <panel_attributes>Matricaria
+    <panel_attributes>Piano
 --
-SortName
-Quantity
+PianoType
 --
 
 </panel_attributes>
@@ -39,15 +38,15 @@ Quantity
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>110</x>
-      <y>520</y>
+      <x>400</x>
+      <y>720</y>
       <w>210</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>Rose
+    <panel_attributes>Guitar
 --
-SortName
-Quantity
+GuitarType
+StringCount
 --
 
 </panel_attributes>
@@ -56,15 +55,14 @@ Quantity
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>520</y>
+      <x>630</x>
+      <y>720</y>
       <w>210</w>
-      <h>80</h>
+      <h>60</h>
     </coordinates>
-    <panel_attributes>Aster
+    <panel_attributes>Horn
 --
-SortName
-Quantity
+HornType
 --
 
 </panel_attributes>
@@ -73,65 +71,48 @@ Quantity
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
-      <y>470</y>
-      <w>150</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;130.0;50.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>200</x>
-      <y>470</y>
+      <x>490</x>
+      <y>680</y>
       <w>260</w>
-      <h>70</h>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>240.0;10.0;10.0;50.0</additional_attributes>
+    <additional_attributes>10.0;10.0;240.0;40.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>430</x>
-      <y>470</y>
-      <w>130</w>
-      <h>70</h>
+      <x>490</x>
+      <y>680</y>
+      <w>30</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>110.0;10.0;10.0;50.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>680</y>
+      <w>260</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>240.0;10.0;10.0;40.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>440</x>
-      <y>260</y>
+      <x>400</x>
+      <y>470</y>
       <w>210</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>FlowerBunch
+    <panel_attributes>OrderItem
 --
-FlowerList
-FlowerCount
---
-
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>780</x>
-      <y>520</y>
-      <w>210</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>Tulipa
---
-SortName
 Quantity
+Price
 --
 
 </panel_attributes>
@@ -140,84 +121,32 @@ Quantity
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>640</x>
-      <y>470</y>
-      <w>270</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;250.0;50.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>530</x>
-      <y>330</y>
+      <x>490</x>
+      <y>540</y>
       <w>30</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>550</x>
-      <y>340</y>
-      <w>20</w>
-      <h>20</h>
-    </coordinates>
-    <panel_attributes>1
-style=wordwrap</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>550</x>
-      <y>370</y>
-      <w>30</w>
-      <h>20</h>
-    </coordinates>
-    <panel_attributes>*
-style=wordwrap</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>110</x>
-      <y>650</y>
-      <w>210</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>RoseBush
---
-FlowerList
-FlowerCount
---
-
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>200</x>
-      <y>590</y>
-      <w>30</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+    <panel_attributes>lt=&lt;-
 </panel_attributes>
     <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>220</x>
-      <y>600</y>
+      <x>510</x>
+      <y>580</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>1
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>510</x>
+      <y>550</y>
       <w>30</w>
       <h>20</h>
     </coordinates>
@@ -226,14 +155,108 @@ style=wordwrap</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>340</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Order
+--
+Customer
+Delivery
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>410</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
     <id>Text</id>
     <coordinates>
-      <x>220</x>
-      <y>630</y>
+      <x>510</x>
+      <y>420</y>
       <w>20</w>
       <h>20</h>
     </coordinates>
     <panel_attributes>1
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>510</x>
+      <y>450</y>
+      <w>30</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>*
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>210</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Customer
+--
+Name
+Surname
+DeliveryAddress
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>290</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>510</x>
+      <y>300</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>1
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>510</x>
+      <y>320</y>
+      <w>30</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>*
 style=wordwrap</panel_attributes>
     <additional_attributes/>
   </element>
