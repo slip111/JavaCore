@@ -24,6 +24,9 @@ public class TemperatureConverter {
                 double celsius2 = (fahrenheit2-32)/1.8;
                 System.out.println(fahrenheit2 +" fahrenheit degree equal to " +celsius2 +" celsius degree");
                 break;
+            default:
+                System.out.println("Choose right method and try again!");
+                break;
         }
     }
 
