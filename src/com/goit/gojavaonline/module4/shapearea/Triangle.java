@@ -1,6 +1,6 @@
 package com.goit.gojavaonline.module4.shapearea;
 
-public class Triangle implements ShapeArea {
+public class Triangle implements Shape {
     private double base;
     private double height;
     public Triangle(double b, double h){

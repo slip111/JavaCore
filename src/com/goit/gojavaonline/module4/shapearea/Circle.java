@@ -1,6 +1,6 @@
 package com.goit.gojavaonline.module4.shapearea;
 
-public class Circle implements ShapeArea{
+public class Circle implements Shape{
     private double radius;
     public Circle(double r){
         this.radius = r;

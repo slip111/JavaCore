@@ -3,7 +3,7 @@ package com.goit.gojavaonline.module4.shapearea;
 
 public class CalculateShapeArea {
     public static void main(String[] args){
-        ShapeArea shapeArea = new Triangle(5,8);
+        Shape shapeArea = new Triangle(5,8);
         shapeArea.calculate();
         System.out.println("Triangle area is: " +shapeArea.getArea() +"(square millimeters)");
 
