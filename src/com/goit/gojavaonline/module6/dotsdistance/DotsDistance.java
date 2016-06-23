@@ -1,5 +1,6 @@
 package com.goit.gojavaonline.module6.dotsdistance;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
@@ -8,20 +9,22 @@ import java.util.Scanner;
  */
 public class DotsDistance {
     public static void main (String[] args) {
-        Scanner scanner  = new Scanner(System.in);
-        System.out.println("Count distance between two points");
-        System.out.println("Enter X coordinate of point A");
-        final double x1= scanner.nextDouble();
-        System.out.println("Enter Y coordinate of point A");
-        final double y1= scanner.nextDouble();
+        try {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Count distance between two points");
+            System.out.println("Enter X coordinate of point A");
+            final double x1 = scanner.nextDouble();
+            System.out.println("Enter Y coordinate of point A");
+            final double y1 = scanner.nextDouble();
 
-        System.out.println("Enter X coordinate of point B");
-        final double x2= scanner.nextDouble();
-        System.out.println("Enter Y coordinate of point B");
-        final double y2= scanner.nextDouble();
-        double distance = Math.sqrt(((x2-x1)*(x2-x1))+((y2-y1)*(y2-y1)));
-        System.out.println("Distance between A and B points is " +distance);
+            System.out.println("Enter X coordinate of point B");
+            final double x2 = scanner.nextDouble();
+            System.out.println("Enter Y coordinate of point B");
+            final double y2 = scanner.nextDouble();
+            double distance = Math.sqrt(((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1)));
+            System.out.println("Distance between A and B points is " + distance);
+        } catch (InputMismatchException e) {
+            System.out.println("Coordinate must be a number!");
+        }
     }
-
-
 }
