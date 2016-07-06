@@ -1,8 +1,13 @@
 package com.goit.gojavaonline.module6.musicshop;
 
 public class Guitar extends Instruments {
-    private String guitarType;
-    private int stringCount;
+    private String guitarType;// акустическая гитара, бас гитара, элестрогитара.
+    private Integer guitarStorageQuantity; // количество на складе
+    public Guitar(String name, String type, Integer quantity){
+        instrumentName = name;
+        guitarType = type;
+        guitarStorageQuantity = quantity;
+    }
 
     public String getGuitarType() {
         return guitarType;
@@ -12,11 +17,11 @@ public class Guitar extends Instruments {
         this.guitarType = guitarType;
     }
 
-    public int getStringCount() {
-        return stringCount;
+    public Integer getGuitarStorageQuantity() {
+        return guitarStorageQuantity;
     }
 
-    public void setStringCount(int stringCount) {
-        this.stringCount = stringCount;
+    public void setGuitarStorageQuantity(Integer guitarStorageQuantity) {
+        this.guitarStorageQuantity = guitarStorageQuantity;
     }
 }
